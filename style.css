@@ -232,7 +232,12 @@
 
 body {
     font-family: 'Spray Letters', sans-serif;
-    background-color: #827564;
+    background-color: #579fcd;
+    background-image: url('/bg.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Cover the entire viewport */
+    /* Animation to change brightness */
     background-size: contain;
 }
 
@@ -285,7 +290,7 @@ header {
     padding-bottom: 3px;
     background-color: rgba(0, 0, 0, 0.439);
     border-style: double;
-    border-color: #FF7828;
+    border-color: #06a7f1;
 
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2b6f4", endColorstr="#ffffff", GradientType=1);
 
@@ -298,7 +303,7 @@ header {
     font-weight: 100;
     border-style: solid;
     border-color: rgb(255, 255, 255);
-    color: #FF7828;
+    color: #06a7f1;
     background-color: #000000;
     cursor: pointer;
     font-size: 30px;
@@ -320,11 +325,13 @@ header {
     display: none; 
 }
 h1 {
-    color: #FF7828;
+    color: #a6e3ff;
     font-size: 75px;
     font-family: 'Spray Letters', sans-serif;
     text-align: center;
     font-weight: 100;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    /* Add a subtle shadow for better visibility */
     /* text-decoration: underline;
     text-decoration-color: #ddff00; */
 
@@ -336,11 +343,7 @@ header .main_logo {
     margin-left: auto;
     margin-right: auto;
     width: 325px;
-    border-radius: 250px;
-    border-style: double;
-    border-width: 5px;
-    /* border-color: rgb(255, 255, 255); */
-    background-color: rgba(0, 0, 0, 0.462);
+
     /* animation: rainbow 1s linear infinite; */
     transition: transform 0.3s ease-in-out;
     /* Smooth transition effect */
@@ -355,7 +358,7 @@ header p {
     background-color: #00000073;
     padding: 10px;
     border-radius: 10px;
-    border-color: #FF7828;
+    border-color: #06a7f1;
     border-style: solid;
 }
 
@@ -389,6 +392,11 @@ section .socials {
     text-decoration: none;
     text-emphasis: none;
     margin-top: -3%;
+    border: 5px solid #06a7f1;
+    border-style: double;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.439);
 
 }
 
@@ -411,7 +419,7 @@ footer p {
     background-color: #f8f9fa00;
     text-align: center;
     font-family: 'Arial', sans-serif;
-    background-color: #827564;
+    background-color: #579fcd;
     background-size: contain;
 }
 
@@ -515,9 +523,23 @@ footer p {
     border-style: solid;
     border-color: white;
     border-width: 5px;
-    border-color: #FF7828;
+    border-color: #06a7f1;
     /* Animation with duration and timing */
 
+}
+.chart-container {
+justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: 'Spray Letters', sans-serif;
+    background-color: #1b1b1ba0;
+    border-radius: 30px;
+    padding: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    border-color: #06a7f1;
 }
 
 @keyframes hover {
@@ -664,7 +686,7 @@ footer p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-style: solid;
     border-width: 3px;
-    border-color: #FF7828;
+    border-color: #06a7f1;
     filter: grayscale(100%);
     transition: transform 0.6s ease-in-out;
     /* Smooth transition effect */
@@ -738,7 +760,7 @@ section .money2 {
     }
     body {
         font-family: 'Spray Letters', sans-serif;
-        background-color: #827564;
+        background-color: #579fcd;
         background-size: 250%;
     }
     h1 {
@@ -805,7 +827,7 @@ section .money2 {
         padding-bottom: 3px;
         background-color: rgba(0, 0, 0, 0.439);
         border-style: double;
-        border-color: #FF7828;
+        border-color: #06a7f1;
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2b6f4", endColorstr="#ffffff", GradientType=1);
 
     }
@@ -817,7 +839,7 @@ section .money2 {
         font-weight: 100;
         border-style: solid;
         border-color: rgb(255, 255, 255);
-        color: #FF7828;
+        color: #06a7f1;
         background-color: #000000;
         cursor: pointer;
         font-size: 20px;
@@ -848,13 +870,13 @@ section .money2 {
         background-color: #f8f9fa00;
         text-align: center;
         font-family: 'Arial', sans-serif;
-        background-color: #827564;
+        background-color: #579fcd;
         background-size: 250%;
     }
     .mobiletopic{
         display: block;
         font-size: 50px;
-        color: #FF7828ff;
+        color: #06a7f1;
     }
     section h2 {
         color: white;
